@@ -1,0 +1,57 @@
+.flex-container {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+img.header {
+  width: 100%;  
+}
+
+.header.container {
+  max-width: 100vw;
+}
+
+.main { 
+  display: flex;
+  justify-content: center;
+  flex-direction: row; 
+  flex-wrap: nowrap;
+}
+
+.col {
+  flex: 50%; 
+}
+
+.col.left {
+
+  margin: 20px;
+}
+
+.col.right {
+  margin: 20px; 
+}
+
+#reservation {
+  position: relative; 
+  width: 513px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+#reviews {
+  position: relative;
+  justify-content: center;
+}
+
+#photos {
+  width: 1024px;
+}
+
+
+#modal {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
